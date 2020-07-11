@@ -134,7 +134,7 @@ def test(model, outfile):
     
     if 'eig' == args.model or 'vgg' == args.model:
     
-       for i in range(3, 4):
+       for i in range(1, N+1):
           fname = os.path.join(path, str(i) + '.png')
       
           v = Image.open(fname)
